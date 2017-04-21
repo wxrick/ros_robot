@@ -1,0 +1,8 @@
+import random
+
+for i in range(0, 3):
+	array =[]
+	print array, "before loop"
+	for i in range(0, 5):
+		array.append(random.random())
+	print array, "after loop"
